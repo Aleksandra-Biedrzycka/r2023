@@ -227,7 +227,43 @@ c(znakowy,vm)
  ?rea
     
     
-  
+   mean(daneDF$wiek)
+   median(daneDF$wiek)
+   max(daneDF$wiek)
+   min(daneDF$wiek)
+   summary(daneDF)
+    
+    dttest<- read.csv("./smogKrakow2/0012017.csv" )
+    View(dttest)
+    
+    mean(dttest$X3_pressure,na.rm = TRUE)
+    
+
+    l<-"mean"
+    if ( l=="mean"){
+      print(l)
+    }
+    if(l=="median"){
+      print(l)
+    }
+    
+    
+    returnTest<- function(){
+      dodatkowa<-""
+      l<-"mean"
+      if ( l=="mean"){
+        dodatkowa<-l
+      }
+      else if(l=="median"){
+        dodatkowa<-l
+      }
+      dodatkowa
+    }
+    
+    returnTest()
+    
+    
+    
     
     
     
