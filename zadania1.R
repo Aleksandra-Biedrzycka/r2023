@@ -33,3 +33,4 @@
 #   paste("string1","string2",sep="TU WSTAW SEPARATOR")
 # Gdy mamy, rózne oznaczenia NA w plikach możemy wykorzystać ( w tym wypadku pusty znak i NA:
 #                                                                na.strings=c("","NA")
+
